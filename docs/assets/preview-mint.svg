@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Filigran oluşturma arayüzü</title>
+  <desc id="desc">AI metnine görünmez filigran ekleme ekranının ön izlemesi</desc>
+  <defs><radialGradient id="mintGlow" cx="20%" cy="0" r="90%"><stop stop-color="#a782ff" stop-opacity=".22"/><stop offset="1" stop-color="#070711" stop-opacity="0"/></radialGradient></defs>
+  <rect width="760" height="520" rx="24" fill="#070711"/>
+  <rect width="760" height="520" rx="24" fill="url(#mintGlow)"/>
+  <rect x="24" y="24" width="712" height="472" rx="20" fill="#111121" fill-opacity=".92" stroke="#4d416e"/>
+  <rect x="48" y="48" width="38" height="38" rx="11" fill="#a782ff" fill-opacity=".13" stroke="#9273da"/>
+  <text x="67" y="72" text-anchor="middle" fill="#c9b4ff" font-family="monospace" font-size="12" font-weight="700">01</text>
+  <text x="102" y="54" fill="#c9b4ff" font-family="monospace" font-size="8" font-weight="700" letter-spacing="1.5">THE ENCHANTMENT</text>
+  <text x="102" y="75" fill="#f7f4ff" font-family="system-ui,sans-serif" font-size="21" font-weight="750">Filigranı dokuyun</text>
+  <text x="102" y="92" fill="#aaa5c0" font-family="system-ui,sans-serif" font-size="12">Sağlayıcı frontend entegrasyonunun simülasyonu</text>
+
+  <text x="48" y="124" fill="#c5bfd4" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">SAĞLAYICI KİMLİĞİ</text>
+  <rect x="48" y="136" width="664" height="42" rx="10" fill="#080812" stroke="#3b3451"/>
+  <text x="62" y="162" fill="#f0ecf9" font-family="system-ui,sans-serif" font-size="13">demo-ai-provider</text>
+
+  <text x="48" y="208" fill="#c5bfd4" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">AI TARAFINDAN ÜRETİLEN METİN</text>
+  <rect x="48" y="220" width="664" height="110" rx="10" fill="#080812" stroke="#3b3451"/>
+  <g fill="#e8e3f2" font-family="system-ui,sans-serif" font-size="12">
+    <text x="62" y="245">Yapay zeka sistemleri tarafından üretilen metinlerin kaynağını anlamak</text>
+    <text x="62" y="266">giderek daha önemli hale geliyor. Bu yaklaşım her kelimenin sonuna</text>
+    <text x="62" y="287">yalnızca üç görünmez karakter yerleştirerek dağıtık bir sinyal oluşturuyor.</text>
+  </g>
+  <text x="48" y="354" fill="#aaa5c0" font-family="monospace" font-size="10">52 kelime</text>
+  <rect x="548" y="338" width="164" height="38" rx="10" fill="#a782ff"/>
+  <text x="630" y="362" text-anchor="middle" fill="#100b19" font-family="system-ui,sans-serif" font-size="12" font-weight="800">✦ Filigran oluştur</text>
+
+  <line x1="48" y1="396" x2="712" y2="396" stroke="#34304b"/>
+  <circle cx="53" cy="421" r="4" fill="#62f5e2"/>
+  <text x="65" y="425" fill="#f0ecf9" font-family="system-ui,sans-serif" font-size="12" font-weight="700">Filigran yerleştirildi</text>
+  <text x="660" y="425" fill="#c9b4ff" font-family="system-ui,sans-serif" font-size="11">Kopyala</text>
+
+  <g font-family="monospace" font-size="10">
+    <rect x="48" y="446" width="190" height="28" rx="7" fill="#19182a"/>
+    <rect x="250" y="446" width="190" height="28" rx="7" fill="#19182a"/>
+    <rect x="452" y="446" width="260" height="28" rx="7" fill="#19182a"/>
+    <text x="62" y="464" fill="#aaa5c0">52 işaretli kelime</text>
+    <text x="264" y="464" fill="#aaa5c0">156 ZWC toplam</text>
+    <text x="466" y="464" fill="#aaa5c0">demo-ai-provider</text>
+  </g>
+</svg>

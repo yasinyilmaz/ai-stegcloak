@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kelime başına üç görünmez karakterle dağıtık AI provenance filigranı deney laboratuvarı."
+    />
+    <title>AI StegCloak Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
+    <div class="star-field" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="AI StegCloak ana sayfa">
+        <span class="brand-mark" aria-hidden="true"><i>✦</i></span>
+        <span>AI StegCloak <small>LAB</small></span>
+      </a>
+      <div class="protocol-pill"><span></span> Invisible signal · v0.1</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-layout">
+          <div class="hero-content">
+            <p class="eyebrow"><span>✦</span> DAĞITIK ZWC PROVENANCE</p>
+            <h1>Görünmeyeni<br /><em>metne işle.</em></h1>
+            <p class="hero-copy">
+              AI cevabı ekranda belirmeden hemen önce, her kelimeye yalnızca üç görünmez
+              karakter dokuyan deneysel bir filigranlama protokolü.
+            </p>
+            <div class="hero-metrics" aria-label="Protokol özellikleri">
+              <div><strong>3</strong><span>ZWC / kelime</span></div>
+              <div><strong>6 bit</strong><span>dağıtık sembol</span></div>
+              <div><strong>HMAC</strong><span>gizli doğrulama</span></div>
+            </div>
+          </div>
+
+          <div class="magic-visual" aria-hidden="true">
+            <div class="orbit orbit-outer"><span></span><i>✦</i></div>
+            <div class="orbit orbit-inner"><span></span><i>·</i></div>
+            <div class="magic-core">
+              <span class="core-glyph">⁝</span>
+              <strong>INVISIBLE</strong>
+              <small>PROVENANCE SIGNAL</small>
+            </div>
+            <span class="floating-rune rune-one">U+2061</span>
+            <span class="floating-rune rune-two">U+2063</span>
+            <span class="floating-rune rune-three">✦</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="diff-section" aria-labelledby="diff-title">
+        <div class="diff-intro">
+          <p class="eyebrow"><span>✦</span> VISIBLE DIFF = 0</p>
+          <h2 id="diff-title">Görünen metin<br /><em>hiç değişmez.</em></h2>
+          <p>
+            Önce ve sonra satırları gözle aynıdır. Fark yalnızca kopyalama sırasında metinle
+            birlikte taşınan görünmez Unicode katmanındadır.
+          </p>
+        </div>
+
+        <div class="diff-console">
+          <div class="diff-toolbar">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>response.txt · visible comparison</span>
+            <span class="zero-badge">0 visible changes</span>
+          </div>
+          <div class="diff-body">
+            <div class="diff-row diff-before">
+              <span class="diff-sign" aria-hidden="true">−</span>
+              <span class="diff-label">ÖNCE</span>
+              <code>Yapay zeka metni görünmez filigran taşır.</code>
+            </div>
+            <div class="diff-row diff-after">
+              <span class="diff-sign" aria-hidden="true">+</span>
+              <span class="diff-label">SONRA</span>
+              <code aria-label="Yapay zeka metni görünmez filigran taşır.">Yapay&#x2061;&#x2062;&#x2063; zeka&#x2062;&#x2063;&#x2064; metni&#x2063;&#x2064;&#x2061; görünmez&#x2064;&#x2061;&#x2062; filigran&#x2061;&#x2063;&#x2062; taşır&#x2062;&#x2064;&#x2063;.</code>
+            </div>
+            <div id="forensic-layer" class="forensic-layer is-concealed" aria-hidden="true">
+              <span class="forensic-prefix">↳ ZWC</span>
+              <span>Yapay<i>•••</i></span>
+              <span>zeka<i>•••</i></span>
+              <span>metni<i>•••</i></span>
+              <span>görünmez<i>•••</i></span>
+              <span>filigran<i>•••</i></span>
+              <span>taşır<i>•••</i></span>
+            </div>
+          </div>
+          <div class="diff-footer">
+            <div><span>GÖRÜNÜR GLİF FARKI</span><strong>0</strong></div>
+            <div><span>GİZLİ KATMAN</span><strong>+18 ZWC</strong></div>
+            <button id="reveal-layer" type="button" aria-expanded="false" aria-controls="forensic-layer">Görünmez katmanı göster</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="lab-grid" aria-label="Filigran laboratuvarı">
+        <article class="panel mint-panel">
+          <div class="panel-spark" aria-hidden="true">✦</div>
+          <div class="panel-heading">
+            <span class="step">01</span>
+            <div>
+              <p class="panel-kicker">THE ENCHANTMENT</p>
+              <h2>Filigranı dokuyun</h2>
+              <p>Sağlayıcı frontend entegrasyonunun simülasyonu</p>
+            </div>
+          </div>
+
+          <label for="provider">Sağlayıcı kimliği</label>
+          <input id="provider" value="demo-ai-provider" maxlength="64" />
+
+          <label for="source-text">AI tarafından üretilen metin</label>
+          <textarea id="source-text" rows="11"></textarea>
+
+          <div class="field-footer">
+            <span id="source-count">0 kelime</span>
+            <button id="mint-button" class="primary-button" type="button"><span>✦</span> Filigran oluştur</button>
+          </div>
+
+          <div id="mint-output" class="output-block is-hidden">
+            <div class="output-heading">
+              <div>
+                <span class="success-dot"></span>
+                <strong>Filigran yerleştirildi</strong>
+              </div>
+              <button id="copy-button" class="text-button" type="button">Kopyala</button>
+            </div>
+            <textarea id="watermarked-text" rows="8" readonly></textarea>
+            <div id="mint-stats" class="mini-stats"></div>
+          </div>
+        </article>
+
+        <article class="panel detector-panel">
+          <div class="panel-spark" aria-hidden="true">⌁</div>
+          <div class="panel-heading">
+            <span class="step">02</span>
+            <div>
+              <p class="panel-kicker">THE REVEAL</p>
+              <h2>Görünmeyeni açığa çıkarın</h2>
+              <p>Tam metni, bir paragrafı veya düzenlenmiş parçayı yapıştır</p>
+            </div>
+          </div>
+
+          <label for="detect-text">İncelenecek metin</label>
+          <textarea
+            id="detect-text"
+            rows="14"
+            placeholder="Filigranlı metni veya yalnızca bir bölümünü buraya yapıştırın…"
+          ></textarea>
+
+          <div class="field-footer">
+            <span id="detect-count">0 görünmez karakter</span>
+            <button id="detect-button" class="primary-button accent" type="button"><span>⌁</span> Taramayı başlat</button>
+          </div>
+
+          <div id="detect-result" class="result-card neutral">
+            <span class="result-icon">⌁</span>
+            <div>
+              <strong>Henüz tarama yapılmadı</strong>
+              <p>Doğrulama sonucu ve kanıt metrikleri burada görünecek.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="principles">
+        <p class="eyebrow"><span>✦</span> BÜYÜNÜN SINIRLARI</p>
+        <div class="principle-grid">
+          <div><span>01</span><h3>Pozitif kanıt</h3><p>Geçerli eşleşme, güvenilir sağlayıcı kanalından gelen AI içeriği sinyalidir.</p></div>
+          <div><span>02</span><h3>Negatif kanıt değil</h3><p>Filigran bulunmaması, metnin insan tarafından yazıldığını göstermez.</p></div>
+          <div><span>03</span><h3>Kasıtlı silmeye açık</h3><p>Tüm ZWC karakterleri temizlenirse yalnızca bu katmanla tespit yapılamaz.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>AI StegCloak Research Prototype</span>
+      <span>Görünmez · Dağıtık · Doğrulanabilir ✦</span>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
